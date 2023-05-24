@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/11dcc4e06b.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Tim Berners-Lee</title>
-
 </head>
-
 <body>
     <header>
+        <img src="images/tim_berners_lee.jpg" alt="Tim Berners-Lee">
         <h1>Tim Berners-Lee</h1>
         <h2>Inventor of HTML</h2>
         <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web.In 1989, Tim was working in a computing services
@@ -20,36 +23,52 @@
             he came up with the concept; at the time he had no idea that it would be implemented on such
             <strong>enormous scale.</strong>
         </p>
-    </header>
-    <main>
         <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a>
-        <i class="fa-brands fa-facebook-f" style="color: #2a497e;"></i>
-        <a href="https://www.facebook.com/tim.bernerslee.9">Facebook</a>
-        <i class="fa-brands fa-linkedin-in" style="color: #2a497e;"></i>
-        <a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/">Linkdin</a>
-        <i class="fa-brands fa-twitter" style="color: #2a497e;"></i>
-        <a href="https://twitter.com/timberners_lee">Twitter</a>
-
-        <h2>His favorite movies</h2>
-        <div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/tim.bernerslee.9"><p><i class="fa-brands fa-facebook-f"></i></p>Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/"><p><i class="fa-brands fa-linkedin-in"></i></p>Linkdin</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/timberners_lee"><p><i class="fa-brands fa-twitter"></i></p>Twitter</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2><span class="surligner">His</span> favorite movies</h2>
+        <article class="film">
             <img src="images/2001_space_odyssey.jpg" alt="2001 Space Odyssey">
-            <h3>2001 - Space Odyssey</h3>
-            <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface ans, with the
-                intelligent computer H.A.L 9000, sets off on a quest</p>
-        </div>
-        <div>
+            <div class="texte-film">
+                <h3>2001 - Space Odyssey</h3>
+                <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface ans,
+                    with
+                    the
+                    intelligent computer H.A.L 9000, sets off on a quest</p>
+            </div>
+        </article>
+        <article class="film">
             <img src="images/mister_hulot.jpg" alt=" Mister Hulot">
-            <h3>Monsieur Hulot</h3>
-            <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly)
-                causes havoc.</p>
-        </div>
-        <div>
+            <div class="texte-film">
+                <h3>Monsieur Hulot</h3>
+                <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but
+                    good-naturedly)
+                    causes havoc.</p>
+            </div>
+        </article>
+        <article class="film">
             <img src="images/alien.jpg" alt="Alien">
-            <h3>Alien</h3>
-            <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for
-                survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
-        </div>
-
+            <div class="texte-film">
+                <h3>Alien</h3>
+                <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After
+                    searching
+                    for
+                    survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+            </div>
+        </article>
     </main>
 </body>
 
